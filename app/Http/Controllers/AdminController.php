@@ -11,7 +11,7 @@ class AdminController extends Controller
 
     function index()
     {
-        echo "hallo selamat datang di menu admin";
+        echo "sayang yuli";
         echo "<h1>" . Auth::user()->name . "</h1>";
     }
 }
